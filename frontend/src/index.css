@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent horizontal scrolling on any screen size, as required by the project spec */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  @apply bg-background text-white;
+}
